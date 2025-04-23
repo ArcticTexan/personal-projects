@@ -3,8 +3,8 @@ from colorama import Fore, Back, Style
 
 def rgbArrayConstructor(im):
     rgbArray = [[(0,0,0)]*im.size[0] for _ in range(im.size[1])]
-    print(pixels)
-    print(pixels[0,0])
+    # print(pixels)
+    # print(pixels[0,0])
     for i in range(im.size[1]):
         for j in range(im.size[0]):
             rgbArray[i][j] = pixels[j,i]
