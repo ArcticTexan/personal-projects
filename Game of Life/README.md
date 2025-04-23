@@ -10,7 +10,7 @@ This is a Python implementation of John Conway's Cellular Automata "game" the Ga
 python3 game_of_life.py
 ```
 
-3. The script will prompt you for dimensions and delay of the grid, then it will run until you Keyboard Interrupt with ctrl+C or cmd+C on Mac
+3. The script will prompt you for dimensions and delay of the grid, then it will print the board to terminal every delay ms until you Keyboard Interrupt with ctrl+C or cmd+C on Mac
 
 
 ## Features
