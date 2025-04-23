@@ -21,4 +21,4 @@ python3 game_of_life.py
 - Rule based evolution
 
 ## Future Improvements
-- Allow custom game states to start with using an interactive GUI
+- Allow custom game states to start with using an interactive GUI for now such edits must be made within the script
