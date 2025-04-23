@@ -1,5 +1,5 @@
 from PIL import Image
-from colorama import Fore, Back, Style
+# from colorama import Fore, Back, Style
 
 def rgbArrayConstructor(im):
     rgbArray = [[(0,0,0)]*im.size[0] for _ in range(im.size[1])]
@@ -79,4 +79,4 @@ if (__name__ == '__main__'):
     file.write(ASCIIArrayToString(ASCIIArray))
     file.close()
 
-    print(Fore.GREEN + ASCIIArrayToString(ASCIIArray))
+    print(ASCIIArrayToString(ASCIIArray))
