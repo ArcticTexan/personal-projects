@@ -52,6 +52,7 @@ if __name__ == '__main__':
     dimensions = input("Enter the dimensions of your board: ")
     width, height = [int(x) for x in dimensions.split(" ")]
     board = random_state(width, height)
+    delay = float(input("Enter the amount of delay (ms) between each generation (the lower the number, the faster and more CPU intensive): "))
     # board = [[0] * width for _ in range(height)]
     # board[0][2], board[1][3], board[2][1], board[2][2], board[2][3] = 1, 1, 1, 1, 1
     print("Starting the Game of Life")
@@ -59,4 +60,4 @@ if __name__ == '__main__':
     while(True):
         board = next_board(board)
         render(board)
-        time.sleep(.1)
+        time.sleep(delay*0.001)
