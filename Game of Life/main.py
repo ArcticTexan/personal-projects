@@ -1,6 +1,6 @@
 import random
 import time
-from colorama import Fore, Back, Style
+# from colorama import Fore, Back, Style
 
 def random_state(width, height):
     board = [[0] * width for _ in range(height)]
@@ -15,9 +15,9 @@ def render(board):
         print("|", end='', sep='')
         for cell in row:
             if (cell == 0):
-                print(Fore.GREEN + ' '*3, end = "", sep = "")
+                print(' '*3, end = "", sep = "")
             elif (cell == 1):
-                print(Fore.GREEN + '█'*3, end= '', sep = '')
+                print('█'*3, end= '', sep = '')
             else:
                 print("\nERROR, Cell type unknown")
                 return
