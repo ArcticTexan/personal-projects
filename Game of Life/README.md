@@ -22,3 +22,9 @@ python3 game_of_life.py
 
 ## Future Improvements
 - Allow custom game states to start with using an interactive GUI for now such edits must be made within the script
+
+## Example of Running it
+
+
+https://github.com/user-attachments/assets/c45bacb2-6460-4eea-94ea-8508ec8c659f
+
