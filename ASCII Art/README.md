@@ -21,8 +21,6 @@ Resizing image...
 Enter the max size of your ascii art: 100
 Loading image...
 Image Loaded
-<PixelAccess object at 0x7f0158d79490>
-(95, 93, 89)
 Successfully Constructed Pixel Matrix!
 What brightness algorithm do you want to use? (Avg = 0, minmax = 1, luminosity = 2) 0
 Invert colors? n
